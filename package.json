@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  },
+  "homepage": "https://Gregt26.github.io/PARALLAX_WEBSITE"
+  ,
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "deploy": "gh-pages -d index.html" 
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,9 @@
   },
   "author": "Greg Taylor",
   "license": "ISC",
+  
   "bugs": {
     "url": "https://github.com/Gregt26/PARALLAX_WEBSITE/issues"
-  },
-  "homepage": "https://github.com/Gregt26/PARALLAX_WEBSITE#readme"
+  }
+  
 }

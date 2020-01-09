@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Gregt26.github.io/PARALLAX_WEBSITE"
-  ,
-  "devDependencies": {},
+  "homepage": "https://Gregt26.github.io/PARALLAX_WEBSITE",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "deploy": "gh-pages -d index.html" 
+     "deploy": "gh-pages" 
   },
   "repository": {
     "type": "git",
